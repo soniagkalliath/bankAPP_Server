@@ -1,9 +1,9 @@
 
                         Server Creation - Express / Node JS
-
+                -----------------------------------------------------
 
                                 command
-
+                        ----------------------
 
                         1. create package.json - npm init
 
@@ -13,9 +13,11 @@
 
                         4. to install nodemon - sudo npm i -g nodemon
 
+                        5. Install jsonwebtoken - npm i jsonwebtoken
+
 
                                 Steps - server Creation
-
+                        -------------------------------------------
 
                         1. create folder for Server
 
@@ -35,4 +37,16 @@
 
                         9. run server
                         
-                        10. pasrse json data in index.js
+                        10. parse json data in index.js
+
+                        11. Middlewares - (req,res,next)=>{}
+
+                                11.1 Application specific Middlewares
+
+                                11.2 Router specific Middlewares
+
+                        12. JWT Token - To authenticate user - 
+
+                                12.1 Token generation - sign()
+
+                                12.2 Token Validation - verify()
